@@ -1,8 +1,6 @@
 import Test
 import HelloWorld from "./contracts/hello_contract.cdc"
 
-pub var blockchain = Test.newEmulatorBlockchain()
-
 pub var testAccounts: [Test.Account] = []
 
 // `setup` function runs before all tests.
