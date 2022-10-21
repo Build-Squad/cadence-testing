@@ -1,0 +1,8 @@
+{
+	"networks": {
+		"emulator": "127.0.0.1:3569"
+	},
+	"contracts": {
+		"HelloWorld": "./contracts/hello_contract.cdc"
+	}
+}
