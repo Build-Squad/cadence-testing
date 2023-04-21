@@ -1,8 +1,10 @@
 {
-	"networks": {
-		"emulator": "127.0.0.1:3569"
-	},
-	"contracts": {
-		"HelloWorld": "./contracts/hello_contract.cdc"
-	}
+  "networks": {
+    "emulator": "127.0.0.1:3569"
+  },
+  "contracts": {
+    "TestProxy": "./contracts/proxy_contract.cdc",
+    "HelloWorld": "./contracts/hello_contract.cdc",
+    "Math": "./contracts/math.cdc"
+  }
 }
